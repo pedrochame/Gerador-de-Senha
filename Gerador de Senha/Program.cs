@@ -38,7 +38,7 @@ namespace GeradorSenha
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("GERADOR DE SENHAS!");
+                Console.WriteLine("GERADOR DE SENHA!");
                 Console.WriteLine("\nSenha: " + geraSenha(senhasGeradas));
                 Console.Write("\nTecle algo para gerar novamente (0 para sair). ");
                 string x = Console.ReadLine();
